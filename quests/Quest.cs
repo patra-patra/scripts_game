@@ -13,7 +13,7 @@ public class Quest
     public List<QuestObjective> Objectives { get; set; }
     public QuestReward Reward { get; set; }
     public DateTime CreatedAt { get; set; }
-    public DateTime? CompletedAt { get; set; }
+    public DateTime? CompletedAt { get; set; } 
 
     public Quest()
     {
